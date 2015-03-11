@@ -1,0 +1,10 @@
+com\mwl\docs\services\config\Application.class
+com\mwl\docs\services\config\AppConfig.class
+com\mwl\docs\services\DocMetaDataService.class
+com\mwl\docs\services\helper\AlfrescoHelper.class
+com\mwl\docs\services\IDocumentManagementService.class
+com\mwl\docs\services\DocumentManagementService.class
+com\mwl\docs\services\config\WebAppInitializer.class
+com\mwl\docs\services\IDocMetaDataService.class
+com\mwl\docs\services\helper\AlfrescoDocHelper.class
+com\mwl\docs\services\SimpleCORSFilter.class

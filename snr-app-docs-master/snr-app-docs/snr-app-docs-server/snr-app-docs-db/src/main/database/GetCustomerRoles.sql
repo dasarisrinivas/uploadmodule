@@ -1,0 +1,10 @@
+SELECT distinct CLIENT_ROLES.CLIENT__ID,CUSTOMER__ID ,APP_PAGE__ID,APP_ROLE__ID,app_pages.PAGE_CD,app_roles.ROLE_NM
+FROM 
+customer_x_client_role,client_roles_x_aval_page_roles,available_app_page_x_app_role,app_pages,app_roles,CLIENT_ROLES 
+where
+customer_x_client_role.CLIENT_role__ID=client_roles_x_aval_page_roles.CLIENT_ROLE__ID and
+available_app_page_x_app_role.ID=client_roles_x_aval_page_roles.AAPGXAROLE__ID and 
+app_pages.ID=available_app_page_x_app_role.APP_PAGE__ID and
+app_roles.ID=available_app_page_x_app_role.app_role__id and
+customer_x_client_role.CLIENT_role__ID=CLIENT_ROLES.ID AND
+customer__id=1 ORDER BY CLIENT__ID 

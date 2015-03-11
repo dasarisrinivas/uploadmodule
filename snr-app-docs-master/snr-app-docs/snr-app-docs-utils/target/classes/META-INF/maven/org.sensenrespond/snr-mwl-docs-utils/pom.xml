@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">  
+   
+   <modelVersion>4.0.0</modelVersion>
+   <artifactId>snr-mwl-docs-utils</artifactId>
+	<packaging>jar</packaging>
+	<name>snr-mwl-docs-utils</name>
+	
+	
+
+   
+  <version>1.0.0-SNAPSHOT</version>
+  <distributionManagement>
+		<repository>
+			<id>deployment</id>
+			<name>Internal Releases</name>
+			<url>http://sensenrespond.com:8081/nexus/content/repositories/SenseAndResponse-RELEASE/</url>
+		</repository>
+		<snapshotRepository>
+			<id>deployment</id>
+			<name>Internal Releases</name>
+			<url>http://sensenrespond.com:8081/nexus/content/repositories/SenseAndRespond-SNAPSHOT/</url>
+		</snapshotRepository>
+	</distributionManagement>
+  
+ 
+  <dependencies>
+   
+   <dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+    <!-- Spring 3 dependencies -->
+    <dependency>
+	<groupId>com.google.code.gson</groupId>
+	<artifactId>gson</artifactId>
+	<version>1.7.1</version>
+  </dependency>
+ 
+    <!-- TestNG dependency -->
+  
+    <!-- Log4j dependency -->
+    <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>1.2.16</version>
+    </dependency>
+
+
+    <dependency>
+    	<groupId>commons-digester</groupId>
+    	<artifactId>commons-digester</artifactId>
+    	<version>2.1</version>
+    	<type>jar</type>
+    	<scope>compile</scope>
+    </dependency>
+    <dependency>
+    	<groupId>commons-collections</groupId>
+    	<artifactId>commons-collections</artifactId>
+    	<version>3.2.1</version>
+    	<type>jar</type>
+    	<scope>compile</scope>
+    </dependency>
+    <dependency>
+    	<groupId>javax.persistence</groupId>
+    	<artifactId>persistence-api</artifactId>
+    	<version>1.0</version>
+    	<type>jar</type>
+    	<scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+    	<groupId>cglib</groupId>
+    	<artifactId>cglib-nodep</artifactId>
+    	<version>2.2</version>
+    	<type>jar</type>
+    	<scope>compile</scope>
+    </dependency>
+
+  </dependencies>
+ 
+  <groupId>org.sensenrespond</groupId>
+</project>

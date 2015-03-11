@@ -1,0 +1,6 @@
+com\mwl\core\dao\impl\BaseDao.class
+com\mwl\core\dao\impl\DBConfigurator.class
+com\mwl\core\dao\impl\rowmapper\BusinessUnitRowMapper.class
+com\mwl\core\dao\util\SqlProperty.class
+com\mwl\core\dao\impl\BusinessUnitDaoImpl.class
+com\mwl\core\dao\BusinessUnitDao.class

@@ -1,0 +1,1 @@
+select  distinct sold_product.CUSTOM_NM, client.DISPLAY_NM as seller_name,sold_product.ID as sold_product_id ,client.logo_url ,ACTUAL_PRODUCT.DISP_NM AS actual_product_nm from sold_product ,actual_product ,client  where sold_product.CUSTOMER__ID='1' and sold_product.actual_product__ID = actual_product.id and actual_product.CLIENT__ID=client.id and sold_product.expiry_dt is null

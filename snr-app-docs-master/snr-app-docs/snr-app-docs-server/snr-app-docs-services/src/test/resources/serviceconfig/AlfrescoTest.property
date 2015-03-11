@@ -1,0 +1,6 @@
+alfresco.username=admin
+alfresco.password=password
+alfresco.group=TestRootGroup
+alfresco.groupDisplayName=Test-RootGroup
+alfresco.childGroup=TestChildGroup
+alfresco.childGroupDisplayName=Child-Test-RootGroup
